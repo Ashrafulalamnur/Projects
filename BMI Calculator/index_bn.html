@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1& display=swap"
+      rel="stylesheet"
+    />
+    <title>বিএমআই ক্যালকুলেটর</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  </head>
+  <body>
+    <header>
+      <div class="name">বিএমআই ক্যালকুলেটর</div>
+      <div class="bn"><a href="index.html">English</a></div>
+    </header>
+
+    <main>
+      <div class="main_section">
+        <h1>আপনার বিএমআই মাপুন</h1>
+        <div class="height">
+          <label for="input_height">উচ্চতা</label>
+          <input type="number" id="input_height" placeholder="ফিট" />
+        </div>
+        <div class="weight">
+          <label for="input_weight">ওজন</label>
+          <input type="number" id="input_weight" placeholder="কেজি" />
+        </div>
+
+        <div class="calculate_btn">
+          <button onclick="calculateBMI();">মাপুন</button>
+        </div>
+        <div class="result_section">
+          <h2 id="result_bn">আপনার ওজন এবং উচ্চতা লিখুন</h2>
+        </div>
+      </div>
+    </main>
+    <footer>
+      Devloped by
+      <a href="facebook.com/ashrfaulalamnur">Ashraful Alam Nur</a>
+    </footer>
+    <script src="script_bn.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
